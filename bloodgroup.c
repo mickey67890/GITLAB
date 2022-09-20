@@ -9,7 +9,11 @@ void main()
     scanf("%s", Name);
     do
     {
+<<<<<<< HEAD
       printf("What is your blood group [ChajutLnwza007]? ");
+=======
+      printf("What is your blood group ? ");
+>>>>>>> 00e599913e34207c728deb9c363bbc27eee4f5fd
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
@@ -23,7 +27,11 @@ void main()
                             strcmp(G, "O") !=0 );
     if (strcmp(G,"A") ==0)
     {
+<<<<<<< HEAD
       printf("%s, A. Hey, you can give blood to: O.\n", Name);
+=======
+      printf("%s, A. Hey, you can give blood to:Seiya.\n", Name);
+>>>>>>> 00e599913e34207c728deb9c363bbc27eee4f5fd
       printf("  You can receive blood from: A, O.\n");
     }
     else if (strcmp(G, "B") ==0)
